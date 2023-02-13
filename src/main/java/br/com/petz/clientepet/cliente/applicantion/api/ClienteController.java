@@ -39,5 +39,4 @@ public class ClienteController implements ClienteAPI {
 		log.info("[finaliza] ClienteController - getClienteAtravesId");
 		return clienteDetalhado;
 	}
-
 }
