@@ -1,4 +1,5 @@
 package br.com.petz.clientepet.cliente.applicantion.api;
+
 import java.time.LocalDate;
 
 import br.com.petz.clientepet.cliente.domain.Sexo;
@@ -8,10 +9,9 @@ import lombok.Value;
 
 @Value
 public class ClienteAlteracaoRequest {
-	
+
 	@NotBlank
 	private String nomeCompleto;
-	@NotBlank
 	@NotBlank
 	private String celular;
 	private String telefone;
