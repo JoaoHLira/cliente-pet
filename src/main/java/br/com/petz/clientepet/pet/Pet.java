@@ -33,6 +33,7 @@ public class Pet {
 	@Enumerated(EnumType.STRING)
 	private TipoPet tipo;
 	private String microchip;
+	@NotBlank
 	private String raca;
 	private SexoPet sexo;
 	private String pelagemCor;
